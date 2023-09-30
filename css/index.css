@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.nav justify-content-center {
+    box-shadow: 100px 100px 100px;
+}
+
+.fundo {
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+}
+
+.menu {
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex; /* Alteração aqui para usar display flex */
+    flex-direction: column; /* Layout em coluna */
+    gap: 10px; /* Espaçamento entre elementos */
+}
+
+.form-menu {
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Usar largura total da div pai */
+    padding: 10px; /* Adicionar espaço interno */
+}
+
+.mb-3 {
+    justify-content: center;
+    align-items: center;
+}
+
+.btn btn-primary {
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    justify-content: center;
+}
